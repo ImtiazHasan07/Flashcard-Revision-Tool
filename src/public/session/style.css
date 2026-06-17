@@ -1,0 +1,90 @@
+html {
+    font-family: Sans-Serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    user-select: none;
+    background-color: #2d2d2d;
+    color: white;
+}
+
+.centre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.question {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 60px;
+}
+
+.answer {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.button {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #0077ff;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.button:hover {
+    background-color: #004696;
+}
+
+.container {
+    margin-top: 125px;
+    text-align: center;
+}
+
+.toggle-answer-button {
+    width: 450px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-menu-button {
+    margin-top: 10px;
+    margin-right: 2px;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.previous-button {
+    margin-top: 10px;
+    margin-left: 2px;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.next-button {
+    margin-top: 10px;
+    margin-left: 2px;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.retry-button {
+    margin-top: 10px;
+    margin-left: 2px;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

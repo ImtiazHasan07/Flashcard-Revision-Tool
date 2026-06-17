@@ -1,0 +1,120 @@
+html {
+    font-family: Sans-Serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    user-select: none;
+    background-color: #2d2d2d;
+    color: white;
+}
+
+.centre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-header {
+    margin-top: 1%;
+    margin-bottom: 0.25%;
+    font-size: 60px;
+}
+
+.start-session-button {
+    padding: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.create-card-header {
+    font-size: 40px;
+    margin-bottom: 0.5%;
+}
+
+.input {
+    width: 460px;
+}
+
+.question-input {
+    font-size: 20px;
+    height: 30px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border-width: 0px;
+    margin-bottom: 1%;
+}
+
+.answer-input {
+    font-size: 20px;
+    padding-bottom: 100px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border-width: 0px;
+    margin-bottom: 1%;
+}
+
+.create-button {
+    padding: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: -0.5%;
+}
+
+.change-directory {
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.change-directory:active {
+    color: #d1d1d1;
+}
+
+.button {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #0077ff;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+
+.button:hover {
+    background-color: #004696;
+}
+
+.container {
+    /* margin-top: 250px; */
+    text-align: center;
+}
+
+.cards-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup-container {
+    visibility: hidden;
+    display: flex;
+    position: fixed;
+    top: auto;
+    left: 27.5%;
+    bottom: 2%;
+    /* width: fit-content; */
+    width: 45%;
+    height: 7.5%;
+    border-radius: 15px;
+}
+
+.popup-message {
+    font-size: 17px;
+}

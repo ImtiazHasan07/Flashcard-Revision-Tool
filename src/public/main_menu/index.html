@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Flashcard Revision Tool</title>
+  <meta charset='UTF-8'>
+  <link rel='stylesheet' href='./style.css'>
+</head>
+
+<body>
+  <div class='container'>
+    <h1 class='menu-header centre'>Menu</h1>
+    <button id='start-session-button' class='start-session-button button'>Start Session</button>
+    <h2 class='create-card-header centre'>Create Card</h2>
+    <form id='cards-form' class='cards-form centre'>
+      <input type='text' id='question-input' class='question-input input centre' required>
+      <input type='text' id='answer-input' class='answer-input input centre' required>
+      <input id='create-button' class='create-button button centre' type='submit' value='Create'>
+    </form>
+    <p id='change-directory' class='change-directory centre'>Change Directory</p>
+    <div id='popup-container' class='popup-container centre'>
+      <p id='popup-message' class='popup-message'>Error: $error</p>
+    </div>
+  </div>
+  <script type='module' src='./script.js'></script>
+</body>
+
+</html>
